@@ -1,0 +1,13 @@
+d=12;
+e=input("Enter the value of e\n");
+f=input("Enter the value of f\n");
+g=input("Enter the value of g\n");
+h=input("Enter the value of h\n");
+x= a+e;
+y=b-f;
+z=c*g;
+q=d/h;
+fprintf("%d + %d = %d\n",a,e,x);
+fprintf("%d - %d = %d\n",b,f,y);
+fprintf("%d * %d = %d\n",c,g,z);
+fprintf("%d / %d = %d\n",d,h,q);
