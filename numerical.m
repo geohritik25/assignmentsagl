@@ -140,12 +140,12 @@ if iex == 3
     
     % Call simpson function for integration
     b=[];
-    for i=2:Nsamples-1:2
+    for i=2:2:Nsamples-1
         a=4*y_sum(i);
         b=[b a];
     end
     p=[];
-    for i=3:Nsamples-2:2
+    for i=3:2:Nsamples-2
         a=2*y_sum(i);
         p=[p a];
     end
